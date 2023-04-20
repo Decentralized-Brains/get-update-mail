@@ -18,7 +18,6 @@ const GetUpdates = () => {
       </p>
 
       <form
-        action=""
         className="mt-10 flex flex-wrap justify-center items-center gap-2 "
       >
         <input
@@ -33,9 +32,9 @@ const GetUpdates = () => {
           name="email"
           id="email"
           placeholder="Enter your email address"
-          className="bg-white  rounded-full py-2 px-4 w-full sm:w-48 md:w-60 lg:w-72"
+          className="bg-white rounded-full py-2 px-4 w-full sm:w-48 md:w-60 lg:w-72"
         />
-        <button className="bg-black hover:bg-white hover:text-black text-white  rounded-full py-2 px-6 duration-300">
+        <button type={"submit"} className="bg-black hover:bg-white hover:text-black text-white  rounded-full py-2 px-6 duration-300">
           GET UPDATES
         </button>
       </form>
